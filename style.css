@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.container-wrap {
+	padding: 0;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 100vh;
+}
+.container-box {
+	background-color: rgba(0, 0, 0, 0.5);
+
+	width: 70%;
+	max-width: 750px;
+	min-width: 350px;
+	padding: 50px;
+}
+
+.container-box h2 {
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.input-list {
+	text-align: center;
+}
+.input-list input {
+	width: 80%;
+	padding: 5px;
+}
+.input-list button {
+	padding: 5px;
+	cursor: pointer;
+}
+
+.list-tabs {
+	width: 80%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.list-tabs > div {
+	border-bottom: 1px solid white;
+	margin: 20px 0;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.list-board {
+	width: 90%;
+	height: inherit;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: left;
+	height: 80%;
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.514);
+}
+
+#list {
+	display: flex;
+	padding: 10px;
+	width: 80%;
+	margin: 5px auto;
+}
+#list:not(#list:last-child) {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+}
+.list-button {
+	margin-left: auto;
+}
+.list-button button {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.514);
+	border: 0;
+	color: rgb(0, 0, 0);
+	padding: 4px 8px;
+}
+
+.done-check {
+	text-decoration: line-through;
+	opacity: 0.3;
+}
